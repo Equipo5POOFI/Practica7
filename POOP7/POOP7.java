@@ -43,7 +43,9 @@ public class POOP7 {
         System.out.println(ger2);
         
         ////////////////////////////////////////////////////////////////
-        System.out.println("\n\n########## Actividades Extra ##########\n\n");
+        System.out.println("\n########## Actividades Extra ##########\n");
+        /////////Animal Acuatico
+        System.out.println("\n########## Animal Acuatico ##########\n");
         Ballena md = new Ballena();
         md.setNombre("Movy Dick");
         md.setLugarOrigen("Oceano Antartico");
@@ -52,11 +54,26 @@ public class POOP7 {
         md.setLargo(25);
         md.sonido("hOOOlAAA");
         md.pelearConPinocho();
+        md.comer();
+        md.nadar();
         System.out.println(md);
         
+        //////// Animal Terrestre
+        System.out.println("\n########## Animal Terrestre ##########\n");
         
-        
-        
+        //////// Animal Aereo
+        System.out.println("\n########## Animal Aereo ##########\n");
+        Pajaro tucan = new Pajaro();
+        tucan.setNombre("Sam");
+        tucan.setLugarOrigen("Bosque Húmedo de México");
+        tucan.setColor("Negro");
+        tucan.setNumeroAlas(2);
+        tucan.setPico("Mi pico es de varios colores");
+        tucan.sonido("Canto");
+        tucan.comer();
+        tucan.volar();
+        tucan.recolectarRama();
+        System.out.println(tucan);
         
     }
 }

@@ -50,13 +50,13 @@ public class Animal {
     
     @Override
     public String toString() {
-        return "Animal{" + "nombre=" + nombre + ", lugarOrigen=" + lugarOrigen + ", color=" + color + '}';
+        return super.toString() + "Animal{" + "nombre=" + nombre + ", lugarOrigen=" + lugarOrigen + ", color=" + color + '}';
     }
       
     //////////////////////
 
     public void sonido( String sound ){
-        System.out.println(" "+this.nombre + "hace "+sound);
+        System.out.println("El sonido que hace "+this.nombre + " es "+sound);
     }
     
     public void comer(){
